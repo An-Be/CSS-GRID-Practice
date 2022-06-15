@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f5f5f5;
+    height: 100vh;
+}
+
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    /* add spacing between items */
+    /* column-gap: 2rem;
+    row-gap: 2rem; */
+    /*commented code above is same as code below*/
+    gap: 2rem;
+
+    /*aligns vertically*/
+    /* align-items: end; */
+    /*aligns horizontally*/
+    /* justify-content: space-around; */
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* the commented code above and  below does the same thing */
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+    /*sets height to a set size*/
+    /* grid-auto-rows: 20rem; */
+
+    /*takes a min and max for height*/
+    /* grid-auto-rows: minmax(10rem, auto); */
+
+    /*code below changes height, height will match item that is the biggest*/
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.item{
+    background: steelblue;
+    color: white;
+    font-size: 1.5rem;
+    padding:2rem;
+    border: skyblue 1px solid;
+}
+/*aligning specific child*/
+/* .item:nth-of-type(2){
+    height:100px;
+    width:100px;
+    align-self: center;
+    justify-self: center;
+} */
+
+/*changing width of one item horizontally*/
+/* .item:nth-of-type(1){
+    background: black;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* commented code above is same as below */
+    /* grid-column: 1 / 3;  */ /*
+}*/
+/*changing width of one item vertically*/
+/* .item:nth-of-type(3){
+    background: #333;
+    grid-row: 2 / 4; 
+} */
+/* .item:nth-of-type(4){
+    background: red;
+    grid-row: 2 / 5; 
+} */
+/* .item:nth-of-type(5){
+    background: yellowgreen;
+    grid-row: 2 / 6; 
+} */
+
+
+
+@media(max-width: 500px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
