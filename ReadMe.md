@@ -69,6 +69,10 @@ Pancake stack uses a mixture of grid and flexbox to make a very basic website la
 
 ![](/images/pancake-stack.png)
 
+#### making different size columns
+
+![](/images/columns.png)
+
 ### Useful resources
 
 - [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/)
