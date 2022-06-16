@@ -73,6 +73,16 @@ Pancake stack uses a mixture of grid and flexbox to make a very basic website la
 
 ![](/images/columns.png)
 
+#### 3-column-preview-card-component
+
+[click here for full repo](https://github.com/An-Be/3-column-preview-card-component)
+
+
+![](/images/preview-large.png)
+![](/images/preview-small.png)
+
+
+
 ### Useful resources
 
 - [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/)
