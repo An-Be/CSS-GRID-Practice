@@ -59,7 +59,15 @@ footer{
 
 #### Testimonials grid section project
 
+[click here for full repo](https://github.com/An-Be/Testimonials-grid-section-solution)
+
 ![](/images/Screenshot-large.png)
+
+#### Pancake Stack
+
+Pancake stack uses a mixture of grid and flexbox to make a very basic website layout
+
+![](/images/pancake-stack.png)
 
 ### Useful resources
 
